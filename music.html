@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Student Name: Harikrishna Bathala  -->
+<html lang="en">
+  <head>
+    <title>A Music Web Application</title>
+    <meta charset="utf-8"/>
+
+    <style>
+      h3,h2{
+        text-align:center;
+      }
+
+    </style>
+
+    <script type="text/javascript" src="music.js"></script>
+  </head>
+  <body onload="initialize();">
+<div id="mypage">
+  <form align="center">
+       <h3><label style="text-align: center">Artist name: <input type="text" id="form-input"/></label></h3>
+    <p align="center" ><input type="button"  onclick="sendRequest();" value="Display Info"/></p>
+    </form>
+    <h2>  <p id="name" >&nbsp;</p> </h2>
+  <h4 align="center"> <a id="link"  >  </a> </h4>
+    <table width="100%" style="height: 100%;" border="0">
+      <tr>
+        <td><img id="img" src="" align="top"/>&nbsp;&nbsp;&nbsp;</td>
+        <td><p id="bio" align="justify"/></td>
+      </tr>
+
+    </table>
+   <h3><p id="albums"  > </p> </h3>
+
+    <table width="100%" style="height: 100%;" border="0">
+      <tr>
+        <td> <p id="topimg" align="center" >  </p>    </td>
+      </tr>
+    </table>
+
+  <h3>    <p id="similar"  /></h3>
+
+  <a href="#mypage"><div id="getsimilar"  > </div> </a>
+
+
+</div>
+  </body>
+</html>
